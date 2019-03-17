@@ -1,5 +1,6 @@
 <aura:component implements="forceCommunity:availableForAllPageTypes" access="global" >
     <aura:attribute name="isCheckable" type="Boolean" default="true"></aura:attribute>
+	 <aura:attribute name="isCheckabletest" type="Boolean" default="true"></aura:attribute>
 <div aura:id="container">
     <div class="TermsTitle">
         Terms and Conditions for Company Name
