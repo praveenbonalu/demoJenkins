@@ -1,0 +1,25 @@
+.THIS .scrollable {
+    height: 350px;
+    width: 1000px;
+    overflow-y: scroll;
+    
+}
+.THIS .TermsTitle{
+    padding-bottom: 15px;
+    font-family: "Times New Roman", Times, serif;
+    
+}
+.THIS .scrollarea-content{
+    min-height:101%;
+}
+
+.THIS .parentDiv
+{
+    margin:5px; 
+    padding:5px; 
+    background-color: green; 
+    width: 500px; 
+    height: 110px; 
+    overflow: auto; 
+    text-align:justify;
+}

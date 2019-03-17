@@ -1,0 +1,86 @@
+<aura:component implements="forceCommunity:availableForAllPageTypes" access="global" >
+    <aura:attribute name="isCheckable" type="Boolean" default="true"></aura:attribute>
+<div aura:id="container">
+    <div class="TermsTitle">
+        Terms and Conditions for Company Name
+    </div>
+    <div class="scrollable" onscroll="{!c.scroll}" id="scrollabletag">
+        <p>
+            <lightning:formattedRichText aura:id="scroll"  value="These Website Standard Terms and Conditions written 
+                                                on this webpage shall manage your use of our website, 
+                                                Webiste Name accessible at Website.com.
+                                                These Website Standard Terms and Conditions written on 
+                                                this webpage shall manageyour use of our website, Webiste
+                                                Name accessible at Website.com.These Website Standard Terms
+                                                and Conditions written on this webpage shall manage your use of our website,
+                                                Webiste Name accessible at Website.com.These Website Standard Terms and Conditions 
+                                                written on this webpage shall manage your use 
+                                                of our website, Webiste Name accessible at Website.com.
+                                                These Website Standard Terms and Conditions written on this webpage shall manage
+                                                your use of our website, Webiste Name 
+                                                These Website Standard Terms and Conditions written on this webpage shall manage
+                                                your use of our website, Webiste Name accessible at
+                                                Website.com.accessible at Website.com.These Website Standard Terms and Conditions written on
+                                                this webpage shall manage your use of our website, 
+                                                Webiste Name accessible at Website.com.
+                                                These Website Standard Terms and Conditions written 
+                                                on this webpage shall manage your use of our website, 
+                                                Webiste Name accessible at Website.com.
+                                                These Website Standard Terms and Conditions written on 
+                                                this webpage shall manageyour use of our website, Webiste
+                                                Name accessible at Website.com.These Website Standard Terms
+                                                and Conditions written on this webpage shall manage your use of our website,
+                                                Webiste Name accessible at Website.com.These Website Standard Terms and Conditions 
+                                                written on this webpage shall manage your use 
+                                                of our website, Webiste Name accessible at Website.com.
+                                                These Website Standard Terms and Conditions written on this webpage shall manage
+                                                your use of our website, Webiste Name 
+                                                These Website Standard Terms and Conditions written on this webpage shall manage
+                                                your use of our website, Webiste Name accessible at
+                                                Website.com.accessible at Website.com.These Website Standard Terms and Conditions written on
+                                                this webpage shall manage your use of our website, 
+                                                Webiste Name accessible at Website.com."></lightning:formattedRichText>
+        </p>
+        <p>
+            <lightning:formattedRichText aura:id="scroll"  value="These Website Standard Terms and Conditions written 
+                                                on this webpage shall manage your use of our website, 
+                                                Webiste Name accessible at Website.com.
+                                                These Website Standard Terms and Conditions written on 
+                                                this webpage shall manageyour use of our website, Webiste
+                                                Name accessible at Website.com.These Website Standard Terms
+                                                and Conditions written on this webpage shall manage your use of our website,
+                                                Webiste Name accessible at Website.com.These Website Standard Terms and Conditions 
+                                                written on this webpage shall manage your use 
+                                                of our website, Webiste Name accessible at Website.com.
+                                                These Website Standard Terms and Conditions written on this webpage shall manage
+                                                your use of our website, Webiste Name 
+                                                These Website Standard Terms and Conditions written on this webpage shall manage
+                                                your use of our website, Webiste Name accessible at
+                                                Website.com.accessible at Website.com.These Website Standard Terms and Conditions written on
+                                                this webpage shall manage your use of our website, 
+                                                Webiste Name accessible at Website.com.
+                                                These Website Standard Terms and Conditions written 
+                                                on this webpage shall manage your use of our website, 
+                                                Webiste Name accessible at Website.com.
+                                                These Website Standard Terms and Conditions written on 
+                                                this webpage shall manageyour use of our website, Webiste
+                                                Name accessible at Website.com.These Website Standard Terms
+                                                and Conditions written on this webpage shall manage your use of our website,
+                                                Webiste Name accessible at Website.com.These Website Standard Terms and Conditions 
+                                                written on this webpage shall manage your use 
+                                                of our website, Webiste Name accessible at Website.com.
+                                                These Website Standard Terms and Conditions written on this webpage shall manage
+                                                your use of our website, Webiste Name 
+                                                These Website Standard Terms and Conditions written on this webpage shall manage
+                                                your use of our website, Webiste Name accessible at
+                                                Website.com.accessible at Website.com.These Website Standard Terms and Conditions written on
+                                                this webpage shall manage your use of our website, 
+                                                Webiste Name accessible at Website.com."></lightning:formattedRichText>
+        </p>
+        </div>
+    <div>
+        <lightning:input type="checkbox" label="Disabled option" name="input3"  disabled="{!v.isCheckable}"/>
+    </div>
+    </div>
+    
+</aura:component>
